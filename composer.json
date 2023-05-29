@@ -1,0 +1,17 @@
+{
+    "name": "rahmatillo/game",
+    "description": "Rock paper scissor game",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmatullo"
+        }
+    ],
+    "require": {
+        "mathieuviossat/arraytotexttable": "~1.0.0"
+    }
+}
