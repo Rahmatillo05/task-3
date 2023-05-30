@@ -108,6 +108,6 @@ class Moves
         $result = $this->rules->detectWinner($this->user_move, $this->computer_move);
         $hmac = $this->hmac->setHMAC($result);
 
-        return "$result HMAC: $hmac";
+        return "$result HMAC key: $hmac";
     }
 }
